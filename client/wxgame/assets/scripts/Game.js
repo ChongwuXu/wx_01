@@ -19,6 +19,16 @@ cc.Class({
         this.initColor();
     },
 
+   art: function() {
+        this.initData();
+        this.gameOverMenu.getComponent('GameOverMenu').init(this);
+        this.bestScore = cc.sys.localStorage.getItem('bestScore');
+        if (!this.bestScore) {
+            this.bestScore = 0;
+        }
+        this.bestScoreLabel.getComponent(cc.Label).string = "最高分数: " + this.bestScore;
+    }, 
+    
     start: function() {
         this.initData();
         this.gameOverMenu.getComponent('GameOverMenu').init(this);
