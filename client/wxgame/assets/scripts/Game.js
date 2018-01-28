@@ -18,7 +18,6 @@ cc.Class({
         this.creatBgBlocks();
         this.addTouchEvents();
         this.initColor();
-        cc.log("--------------------------------->>>>>" + this.bg_frame);
     },
 
    art: function() {
