@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "f25f1640-1528-4fb7-baab-0749a59decc8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "2048_button_shengyin_more-game": {
+      "ver": "1.0.3",
+      "uuid": "d3be6aa5-cb35-4437-8f0c-8509af80aeeb",
+      "rawTextureUuid": "f25f1640-1528-4fb7-baab-0749a59decc8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 270,
+      "height": 80,
+      "rawWidth": 270,
+      "rawHeight": 81,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

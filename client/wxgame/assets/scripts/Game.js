@@ -9,6 +9,7 @@ cc.Class({
         currentScore:0,
         bestScore:0,
         gameOverMenu: cc.Node,
+        bg_frame: cc.Node,
         moving: false
     },    
 
@@ -17,6 +18,7 @@ cc.Class({
         this.creatBgBlocks();
         this.addTouchEvents();
         this.initColor();
+        cc.log("--------------------------------->>>>>" + this.bg_frame);
     },
 
    art: function() {
@@ -68,7 +70,7 @@ cc.Class({
                 this.positions[i].push(cc.p(x, y));
                 // b.setPosition(cc.p(x, y));
                 x += (size + betweenWidth);
-                this.bg.node.addChild(b);
+                this.bg_frame.addChild(b);
             }
             y += (size + betweenWidth);
             x = betweenWidth + size/2;
@@ -159,7 +161,7 @@ cc.Class({
         b.setColor(this.colors[numbers[n]]);
         b.setPosition(this.positions[x][y]);
         b.getChildByName('label').getComponent(cc.Label).string = numbers[n];
-        this.bg.node.addChild(b);
+        this.bg_frame.addChild(b);
         this.blocks[x][y] = b;
         b.scaleX = 0;
         b.scaleY = 0;

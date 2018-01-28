@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "2e3f3dea-d588-424f-b8c9-6e095c51d433",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "star_ani_ad": {
+      "ver": "1.0.3",
+      "uuid": "9f5a6e9f-1d37-4fb4-9650-79609577c180",
+      "rawTextureUuid": "2e3f3dea-d588-424f-b8c9-6e095c51d433",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 720,
+      "height": 150,
+      "rawWidth": 720,
+      "rawHeight": 150,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
